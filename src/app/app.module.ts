@@ -21,7 +21,8 @@ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
     BrowserModule,
     AppRoutingModule,
     NgxsModule.forRoot([
-      TutorialState
+      TutorialState,
+      
     ]),
     NgxsReduxDevtoolsPluginModule.forRoot(),
     NgxsLoggerPluginModule.forRoot()
